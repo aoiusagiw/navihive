@@ -303,7 +303,7 @@ const GroupCard: React.FC<GroupCardProps> = ({
         },
         backgroundColor: (theme) =>
           theme.palette.mode === 'dark' ? 'rgba(33, 33, 33, 0.3)' : 'rgba(255, 255, 255, 0.3)',
-        backdropFilter: 'blur(10px)',
+        backdropFilter: 'blur(7px)',
       }}
     >
       <Box
